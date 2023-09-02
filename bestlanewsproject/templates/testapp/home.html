@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="{%static 'css/bsnews.css' %}"></link>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron" align="center">
+            <div class="container">
+                <h1>WELCOME TO BESTLA CLOUD NEWS PORTAL</h1>
+                    <a class="btn btn-primary btn-lg" href="/movies" role="button">Movie News</a>&nbsp;&nbsp;
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Sports News</a>&nbsp;&nbsp;
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Politics News</a>
+
+            <h1>{{home}}</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
